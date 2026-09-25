@@ -1,4 +1,14 @@
 # Nvslimmer-1.0.6
+
+The original NVSlimmer was developed by uKER.
+
+This repository archives a later NVSlimmer Continued build.
+
+Original NVSlimmer Continued discussion and releases:
+https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility-continued.457504/
+
+I am not the developer of NVSlimmer or NVSlimmer Continued and I do not claim ownership of their source code or binaries.
+
 NVSlimmer 1.0.6 — Unofficial Archive
 
 Unofficial archive/mirror of NVSlimmer Continued 1.0.6, a utility for creating customized and minimal NVIDIA driver installation packages.
