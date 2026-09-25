@@ -1,0 +1,63 @@
+﻿NVSlimmer Continued Changelog:
+======================================
+Version 0.14:
+* Fixed all compiler errors.
+* Fixed all dependency errors.
+* Updated 7z assemblies.
+* Fixed unrecognized packages error.
+* Removed unnecessary buttons.
+* Adjusted information.
+
+Version 1.0:
+* Time for initial release.
+* Major code refactoring and removing unused methods.
+* Corrected NvCpl button click method name.
+* Fixed application not focused.
+* "Install NvCpl" button renamed to "Install NVIDIA Control Panel App", adjusted button width and position in window.
+* "Repackage" module removed.
+* "Apply" module removed.
+* "Load" button is now available when not selecting any driver to install.
+* "Please Wait" label is now with more dots.
+* Added tooltips.
+* Fixed when you load a driver and then loading another but not choosing one, causing the program to be stuck and Load button is grayed out, forcing a restart.
+* Fixed when not loading any driver and pressing "Open working folder" launched default file explorer window. Now it's displaying a message.
+* Fixed program using Registry to save file/folder locations of installed packages. Now it will use Config files.
+* Fixed choosing the wrong "newer" package file, it was mixed up.
+* Decided to keep the "Loaded" text information as is. (the driver packages are more or less the same nowadays)
+* Program will use the assembly folder as the working folder now and to keep the files.
+* Instead of displaying the modules without extracting, the program will extract and not delete. The program will keep the files for next time and use them again.
+* Untangled the install method sub methods into one cohesive method, also not removing modules after install.
+* The program will create a basic log now.
+* Too much ways to exit the program, why?? fixed.
+
+Version 1.0.1:
+* Corrected field names.
+* Added the option "Repackage" to the File Menu. (the option will be saved for future runs)
+* Fixed program version display.
+
+Version 1.0.2:
+* Code refactor for parsing the folder components.
+* Removed unused component types.
+* Empty categories will be removed if empty.
+* Added NVIDIA App category and organized the components accordingly.
+* Should be zero unknowns now.
+
+Version 1.0.3:
+* Components description case changes.
+* Added dependencies for all components, now when selecting components to install it will apply the dependencies to the selection.
+* Fixed exception when you don't proceed with setup prompt after pressing "install".
+* Install button is disabled now when you press once and continue, now you need to load the driver again.
+
+Version 1.0.4:
+* Fixed crash when loading old drivers which had different packages.
+* Added missing components from old drivers and dependencies.
+
+Version 1.0.5:
+* Added option to load custom 3rd party NVIDIA driver folders.
+* Various fixes regarding UI, window messages and tabs.
+
+Version 1.0.6:
+* Added option to repackage loaded driver.
+* Code tidy up.
+* Fixed csproj file.
+* Updated 7Zip assembly.
